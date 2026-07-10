@@ -40,6 +40,7 @@ flowchart LR
   Services --> ImageProcessing["Image processing"]
   Middleware --> Tracing["Distributed tracing"]
   Actions --> CronScheduler["Cron scheduler"]
+  Services --> AuditLog["Audit logger"]
 ```
 
 ## Tech Stack
