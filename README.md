@@ -44,6 +44,7 @@ flowchart LR
   Services --> PdfGenerator["PDF generator"]
   Postgres --> ReadReplica["Read replica"]
   Services --> FileStorage["File storage"]
+  Services --> Notifications["Notification service"]
 ```
 
 ## Tech Stack
