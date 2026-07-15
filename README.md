@@ -45,6 +45,7 @@ flowchart LR
   Postgres --> ReadReplica["Read replica"]
   Services --> FileStorage["File storage"]
   Services --> Notifications["Notification service"]
+  LoadBalancer --> CDN["CDN"]
 ```
 
 ## Tech Stack
