@@ -48,6 +48,7 @@ flowchart LR
   LoadBalancer --> CDN["CDN"]
   Services --> ComplianceLog["Compliance logger"]
   Middleware --> SecretsManager["Secrets manager"]
+  Services --> Analytics["Analytics pipeline"]
 ```
 
 ## Tech Stack
